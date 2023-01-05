@@ -1,0 +1,91 @@
+.header-container {
+  height: 10vh;
+  width: 100vw;
+  background-color: #cbd5e1;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+.website-logo {
+  height: 60px;
+  width: 200px;
+}
+.main-container {
+  width: 100vw;
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+}
+.select-element {
+  height: 40px;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 15px;
+  padding-left: 7px;
+}
+.option-element {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.loading-container {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects-container {
+  width: 100vw;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.failure-container {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.failure-image {
+  height: 60vh;
+  width: 45vw;
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #475569;
+}
+.failure-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.retry-button {
+  height: 40px;
+  width: 100px;
+  background-color: #328af2;
+  border-radius: 5px;
+  border-right: 0px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 300;
+  cursor: pointer;
+}
